@@ -13,6 +13,7 @@ img{
   display: block;
 }
 body {
+  margin: 0;
   font-family: Roboto, sans-serif;
   color: #434455;
   background-color: var(--white);
@@ -40,6 +41,9 @@ body {
   margin-right:  
   }
 
+  header{
+    border-bottom: 1px solid #e7e9fc;
+  }
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--iris, #4d5ae5);
