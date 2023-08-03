@@ -2,6 +2,16 @@
 font-family: "Roboto", sans-serif;
 font-family: "Relawey", sans-serif;
 */
+
+*,
+*::after,
+*::before{
+	box-sizing: border-box;
+}
+
+img{
+  display: block;
+}
 body {
   font-family: Roboto, sans-serif;
   color: #434455;
@@ -29,7 +39,7 @@ body {
   margin-left:  
   margin-right:  
   }
-  
+
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--iris, #4d5ae5);
