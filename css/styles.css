@@ -140,7 +140,9 @@ h1, h2, h3, h4, h5, h6, p{
   color: #404bbf;
 }
 
-
+.filter{
+  padding-top: 96px; padding-bottom: 120px; 
+}
 .filter-button {
   color: var(--irish);
   background-color: var(--cloud);
