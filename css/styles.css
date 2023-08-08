@@ -170,12 +170,17 @@ h1, h2, h3, h4, h5, h6, p{
   color: #fff;
   background: var(--ocean);
 }
-
+.container-galery{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc; 
+  border-top: none;
+}
 .galery-item {
   background: var(--white);
 }
 
 .galery-title {
+  margin-bottom: 8px;
   font-family: Roboto, sans-serif;
   font-size: 20px;
   font-style: normal;
