@@ -164,8 +164,8 @@ h1, h2, h3, h4, h5, h6, p{
   cursor: pointer;
 }
 
-.filter button:hover,
-.filter button:focus {
+.filter-button:hover,
+.filter-button:focus {
   border: 1px solid transparent
   color: #fff;
   background: var(--ocean);
@@ -189,8 +189,7 @@ h1, h2, h3, h4, h5, h6, p{
   letter-spacing: 0.02em;
   color: #2e2f42 ;
 }
-.link{
-  text-decoration: none;
+
 }
 .galery-list{
   display: flex;
