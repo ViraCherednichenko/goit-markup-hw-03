@@ -248,6 +248,7 @@ background: var(--ocean);
   letter-spacing: 0.32px;
 }
 .service-name {
+  margin-bottom: 72px;
   padding-bottom: 72px;
   color: var(--navyblue);
   text-align: center;
@@ -263,7 +264,7 @@ background: var(--ocean);
    gap: 24px;
 }
 .service-item{
-  width: calc((100% - 72px)/3);
+  width: calc((100% - 48px)/3);
 }
 .team{
     background-color:#F4F4FD;
