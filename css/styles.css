@@ -150,6 +150,9 @@ h1, h2, h3, h4, h5, h6, p{
   margin-bottom: 72px
 }
 .filter-button {
+   padding: 12px 24px;
+   border: 1px solid #e7e9fc;
+    border-radius: 4px; 
   color: var(--irish);
   background-color: var(--cloud);
   font-family: Roboto, sans-serif;
@@ -163,6 +166,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .filter-item button:hover,
 .filter-item button:focus {
+  border: 1px solid transparent
   color: #fff;
   background: var(--ocean);
 }
