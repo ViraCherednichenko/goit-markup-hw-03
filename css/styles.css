@@ -187,6 +187,12 @@ h1, h2, h3, h4, h5, h6, p{
 .link{
   text-decoration: none;
 }
+.galery-list{
+  display: flex;
+  flex-wrap: wrap; 
+  column-gap: 24px;
+  row-gap: 48px;
+}
 .galery-text {
   color: var(--slate);
   font-family: Roboto;
