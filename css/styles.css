@@ -96,6 +96,7 @@ gap: 40px;
 
 .hero-banner {
 background-color: #2e2f42;
+padding: 188px 0;
 }
 .hero-title {
 font-weight: 700;
@@ -108,6 +109,7 @@ display: flex;
 align-items: center;
 margin: 0 auto;
 padding-top: 188px;
+max-width: 496px;
 }
 .hero-button {
 background-color: #4D5AE5;
@@ -118,11 +120,15 @@ letter-spacing: 0.04em;
 color: #fff;
 cursor: pointer;
 margin-top: 48px;
-display: flex;
+display: block;
 align-items: center;
 margin-left: auto;
 margin-right: auto;
 padding: 16px 32px;
+min-width: 169px;
+height: 56px;
+border: none;
+border-radius: 4px;
 
 }
 .hero-button:hover,
