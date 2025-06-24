@@ -111,7 +111,6 @@ color: #fff;
 display: flex;
 align-items: center;
 margin: 0 auto;
-padding-top: 188px;
 max-width: 496px;
 }
 .hero-button {
@@ -207,7 +206,6 @@ gap: 24px;
 background-color: #FFFFFF;
 width: calc((100%-72px)/4);
 border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
 }
 .team-content {
     padding: 32px 0;
@@ -299,4 +297,5 @@ color: #f4f4fd;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #f4f4fd;
+width: 264px;
 }
